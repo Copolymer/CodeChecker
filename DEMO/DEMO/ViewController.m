@@ -81,14 +81,6 @@ static int (*orig_clogan_open)(char *name);
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-//    for (int i = 0; i < 10000; i++) {
-//        [_salvager log:@"2222"
-//        withBusinessID:(SGLogSalvagerBusinessIDDefault)
-//           andAttacher:LOG_SALVAGER_FUNCTION_ATTACHER
-//  andCustomAttachments:LogSalvagerResidentMemoryAttachment(@"memory"),
-//                       LogSalvagerSettingsAttachment(@"setting"),
-//                       nil];
-//    }
     [self encodeURLParam:@"fejoajfehfuia"];
 //    NSLog(@"%ld", (long)CFGetRetainCount(stringRef));
 //    NSLog(@"%@", stringRef);
