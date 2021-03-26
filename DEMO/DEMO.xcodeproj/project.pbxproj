@@ -6,20 +6,6 @@
 	objectVersion = 51;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		8CD350A3C7B47F2AA9C3AEC8 /* CodeCheck */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 2D0311712F98F0D4113E266B /* Build configuration list for PBXAggregateTarget "CodeCheck" */;
-			buildPhases = (
-				4DFE0CF2D3DBD114FEF9DF49 /* [code-check] */,
-			);
-			dependencies = (
-			);
-			name = CodeCheck;
-			productName = CodeCheck;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		42F126AE902D501FE3E588A5 /* Pods_DEMO_DEMOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1CC897E86D6A1886AEF36F /* Pods_DEMO_DEMOUITests.framework */; };
 		51AB00260DE3C584E15EA231 /* Pods_DEMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0208D4C9AEB8FBF3F469AF /* Pods_DEMO.framework */; };
@@ -356,7 +342,6 @@
 				BFF57A9D255EA7390067EA95 /* DEMO */,
 				BFF57AB8255EA73B0067EA95 /* DEMOTests */,
 				BFF57AC3255EA73C0067EA95 /* DEMOUITests */,
-				8CD350A3C7B47F2AA9C3AEC8 /* CodeCheck */,
 			);
 		};
 /* End PBXProject section */
@@ -405,24 +390,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DEMO-DEMOUITests/Pods-DEMO-DEMOUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		4DFE0CF2D3DBD114FEF9DF49 /* [code-check] */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[code-check]";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "code-check icheck\n";
 		};
 		5D0CAEDD6F6F57631C1850C6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -581,20 +548,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2B764D6E2A66EECD5F165FF9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-			};
-			name = Release;
-		};
-		B7222F2F545231C549D2C153 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-			};
-			name = Debug;
-		};
 		BFF57ACB255EA73C0067EA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -826,15 +779,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D0311712F98F0D4113E266B /* Build configuration list for PBXAggregateTarget "CodeCheck" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B764D6E2A66EECD5F165FF9 /* Release */,
-				B7222F2F545231C549D2C153 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BFF57A99255EA7390067EA95 /* Build configuration list for PBXProject "DEMO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
