@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DEMO' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Logan',  :podspec=>'DEMO/Logan.podspec'
+  pod 'AFNetworking'
+  pod 'YYModel'
+  # Pods for DEMO
+
+  target 'DEMOTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DEMOUITests' do
+    # Pods for testing
+  end
+
+end

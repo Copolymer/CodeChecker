@@ -1,0 +1,6 @@
+framework module Pods_DEMO_DEMOUITests {
+  umbrella header "Pods-DEMO-DEMOUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

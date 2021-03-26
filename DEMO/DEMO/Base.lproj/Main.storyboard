@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lea-IV-c8X">
+                                <rect key="frame" x="190" y="224" width="34" height="30"/>
+                                <state key="normal" title="flush"/>
+                                <connections>
+                                    <action selector="flush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Omc-U7-Ixi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lng-V3-fHs">
+                                <rect key="frame" x="0.0" y="390" width="414" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="vfO-iL-Dwf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Lng-V3-fHs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3uD-az-Vez"/>
+                            <constraint firstItem="Lng-V3-fHs" firstAttribute="top" secondItem="Lea-IV-c8X" secondAttribute="bottom" constant="136" id="891-Af-oIf"/>
+                            <constraint firstItem="Lng-V3-fHs" firstAttribute="top" secondItem="Lea-IV-c8X" secondAttribute="bottom" constant="136" id="EAG-dR-N2R"/>
+                            <constraint firstItem="Lng-V3-fHs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fsz-X1-jaF"/>
+                            <constraint firstItem="Lng-V3-fHs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JaT-Fr-1Rd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lng-V3-fHs" secondAttribute="bottom" constant="386" id="ikl-fz-wF7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="showLabel" destination="Lng-V3-fHs" id="jOt-iS-tvW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
