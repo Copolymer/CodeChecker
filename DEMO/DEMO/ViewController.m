@@ -82,8 +82,6 @@ static int (*orig_clogan_open)(char *name);
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [self encodeURLParam:@"fejoajfehfuia"];
-//    NSLog(@"%ld", (long)CFGetRetainCount(stringRef));
-//    NSLog(@"%@", stringRef);
 
 }
 
